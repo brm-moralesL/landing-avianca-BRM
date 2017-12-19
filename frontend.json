@@ -1,10 +1,10 @@
 {
-  "name": "frontend-brm",
-  "title": "FrontEnd BRM",
-  "description": "Descripción del proyecto.",
+  "name": "brm-avianca",
+  "title": "BRM | Avianca",
+  "description": "Cada año que emprendemos un viaje juntos, vivimos las mejores experiencias. Hoy queremos compartir con ustedes esos recuerdos que nos conectan y fortalecen esta relación basada en la efectividad, la creatividad y los resultados. ",
   "version": "0.1.0",
   "author": {
-    "name": "Cristian Cortés",
-    "email": "cristian.cortes@brm.com.co"
+    "name": "Leonardo Morales",
+    "email": "leonardo.morales@brm.com.co"
   }
 }
