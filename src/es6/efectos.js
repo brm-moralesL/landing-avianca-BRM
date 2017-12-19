@@ -32,11 +32,4 @@ jQuery(document).ready(function($) {
 	 if( screenWidth > 768 ){
 	   loop.start();
 	 }
-
-	 jQuery(window).mousemove(function(e){
-    	var amountMovedX = (e.pageX * -1 / 60);
-	    var amountMovedY = (e.pageY * -1 / 40);
-	    $('.avion').css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-	});
-
 });
