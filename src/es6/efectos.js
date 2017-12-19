@@ -26,8 +26,8 @@ var loop={
 	       },
 	};
 
-jQuery(document).ready(function($) {
-	var screenWidth = $(window).width();
+jQuery(document).ready(function() {
+	var screenWidth = jQuery(window).width();
 	/*initialize sparks animation for desktop only*/
 	 if( screenWidth > 768 ){
 	   loop.start();
