@@ -5,9 +5,10 @@
 <head>
   <meta charset="utf-8">
   <title>Ejemplo de meta title</title>
-  <meta name="description" content="Frontend BRM">
+  <meta name="description" content="Avianca BRM">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/p-video-js.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Web Fonts-->
   <link href="http://fonts.googleapis.com/css?family=Varela+Round|Roboto:400italic,300,700,400" rel="stylesheet" type="text/css"><!--[if lt IE]>
@@ -18,50 +19,35 @@
 <body>
   <!--Header-->
   <header class="container-fluid">
-    <div class="row">
-      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"><img class="img-responsive" src="" alt="BRM"></div>
-      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-        <!--Menu-->
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <nav class="bar">
-            <ul class="nav nav-tabs" id="navegacion">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="interna.html">Interna</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!--/-Menu-->
-      </div>
-    </div>
+    <div class="cabina-superior avion"></div>
   </header>
   <!--/-Header-->
   <section class="container-fluid">
     <div class="row">
-      <article class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-        <h1>Titulo</h1>
-        <h4>hola que hace 3</h4>
-        <p>
-          En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque, por conjeturas verosímiles, se deja entender que se llamaba Quejana. Pero esto importa poco a nuestro cuento; basta que en la narración dél no se salga un punto de la verdad. 
-          
-          
-          
-          
-          
-          
-        </p>
-      </article>
-    </div>
-  </section>
-  <!--Footer-->
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12">
-        <h5 class="block-center text-center">Footer Content</h5>
+      <div class="contenidos contenidos-webkit">
+        <div class="logos"><img src="images/logos-avianca-brm.png" alt="BRM &amp; Avianca" Title="BRM &amp; Avianca"></div>
+        <div class="contenido-v">
+          <div class="marco-video"><img src="images/marco-video.png" alt="marco" title="marco efectos"></div>
+          <div class="video embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item video-js" data-setup="{&quot;controls&quot;: true, &quot;autoplay&quot;: false, &quot;preload&quot;: &quot;auto&quot;}" poster="images/cover.jpg">
+              <source src="images/media/video brm-avianca.mp4" type="video/mp4">
+              <source src="images/media/video brm-avianca.webm" type="video/webm">
+              <source src="images/media/video brm-avianca.ogv" type="video/ogg">
+            </video>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+  <div id="sparks"></div>
+  <!--Footer-->
+  <footer class="container-fluid">
+    <div class="cabina-inferior avion"></div>
   </footer>
   <!--/-Footer-->
   <!--Scripts-->
   <script src="js/libs/jquery.js"></script>
   <script src="js/libs/bootstrap.min.js"></script>
+  <script src="js/libs/video.js"></script>
+  <script src="js/efectos.js"></script>
 </body></html>

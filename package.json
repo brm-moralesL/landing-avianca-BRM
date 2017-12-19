@@ -1,5 +1,5 @@
 {
-  "name": "frontend-brm-gulp",
+  "name": "Avianca_BRM",
   "version": "0.1.0",
   "engines": {
     "node": ">= 0.10.0"
@@ -39,6 +39,6 @@
     "type": "git",
     "url": "https://github.com/brm-cortesc/frontdesign-package"
   },
-  "author": "Cristian Cortés",
+  "author": "Leonardo Morales",
   "license": "MIT"
 }
