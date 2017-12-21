@@ -4,7 +4,7 @@
  * @link 
  * @link Leonardo Morales - leonardo.morales@brm.com.co
  * @license 
- *Thu Dec 21 2017 14:54:36 GMT-0500 (Hora est. Pacífico, Sudamérica)
+ *Thu Dec 21 2017 16:43:58 GMT-0500 (Hora est. Pacífico, Sudamérica)
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -1856,9 +1856,9 @@ body {
   width: 100%;
 }
 .legales {
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.6);
   bottom: 0;
-  color: #969696;
+  color: #fff;
   font-size: 0.8em;
   left: 0;
   margin: 0;
@@ -1873,10 +1873,10 @@ body {
   display: inline-block;
 }
 .legales .derechos {
-  color: #111;
+  color: #fff;
 }
 .legales a {
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 .contenidos-webkit {
@@ -2265,7 +2265,6 @@ body {
   }
   .legales p {
     display: block;
-    width: 95%;
   }
 }
 
