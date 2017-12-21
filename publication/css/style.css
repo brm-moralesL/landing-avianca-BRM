@@ -4,7 +4,7 @@
  * @link 
  * @link Leonardo Morales - leonardo.morales@brm.com.co
  * @license 
- *Thu Dec 21 2017 13:42:19 GMT-0500 (Hora est. Pacífico, Sudamérica)
+ *Thu Dec 21 2017 14:03:47 GMT-0500 (Hora est. Pacífico, Sudamérica)
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -2265,6 +2265,7 @@ body {
   }
   .legales p {
     display: block;
+    width: 95%;
   }
 }
 
