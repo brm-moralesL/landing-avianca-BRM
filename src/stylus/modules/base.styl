@@ -1,0 +1,24 @@
+/*
+-deben ser elementos por default que lucirán igual en todo el sitio, es .
+-ningún estilo de estos elementos selectores deberá usar !important.
+-no usar selectores tipo class o id.
+*/
+
+	
+a
+	text-decoration none
+	
+	&:hover
+		text-decoration underline
+		
+	img
+		border 0
+	
+body
+	color $gris
+	font-size 1.3em
+	
+
+h1, h2, h3
+	color darken($naranja, 30%)
+	font-family $varela

@@ -1,0 +1,38 @@
+//-Layout Base
+extends ../templates/base.pug
+
+//-Etiqueta Title
+block title
+	title BRM | Avianca
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Avianca BRM" )
+	link(rel="shortcut icon" type="image/png" href="images/favicon.png")
+
+
+block content
+	section.container-fluid
+		div.row
+			.contenidos.contenidos-webkit
+				h1.logos
+					img(src="images/logos-avianca-brm.png" alt="BRM & Avianca" Title="BRM & Avianca")
+				div.contenido-v
+					div.marco-video
+						img(src="images/marco-video.png" alt="marco" title="marco efectos")
+					div.video-brm-avianca.embed-responsive.embed-responsive-16by9
+						iframe.embed-responsive-item(src="https://www.youtube.com/embed/nhfl5K4l114?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen)
+
+
+	div#sparks
+
+
+
+
+
+	
+	
+
+block Scripts
+	//-Acá se ponen js que solo vayan en ésta página
+
