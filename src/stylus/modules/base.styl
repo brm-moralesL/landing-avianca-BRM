@@ -13,12 +13,40 @@ a
 		
 	img
 		border 0
-	
 body
+	background-image url("../images/background.jpg")
+	background-position center 0
+	background-repeat no-repeat
+	background-size auto
 	color $gris
-	font-size 1.3em
+	font-size 1.4rem
+	height 100vh
+	position relative
+	z-index 1
+	// width 100%
+		
+	&::after,
+	&::before
+		background-repeat no-repeat
+		background-size cover
+		content ''
+		pointer-events none
+		position absolute
+		transitionBase()
+		z-index 0
 	
 
-h1, h2, h3
-	color darken($naranja, 30%)
-	font-family $varela
+	&::after
+		height (57.9rem/2)
+		path('adorno-derecha.png')
+		right 0
+		top 0
+		width (45.7rem/2)
+	
+
+	&::before
+		bottom 0
+		height  100%
+		left 0
+		path('adorno-izquierda.png')
+		width 34.8rem

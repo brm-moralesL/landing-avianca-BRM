@@ -1,10 +1,24 @@
 {
-  "name": "brm-avianca",
+   "name": "brm-avianca",
   "title": "BRM | Avianca",
-  "description": "Cada año que emprendemos un viaje juntos, vivimos las mejores experiencias. Hoy queremos compartir con ustedes esos recuerdos que nos conectan y fortalecen esta relación basada en la efectividad, la creatividad y los resultados. ",
+  "description": "Descripción del proyecto.",
   "version": "0.1.0",
   "author": {
-    "name": "Leonardo Morales",
-    "email": "leonardo.morales@brm.com.co"
+    "name": "Cristian Cortés",
+    "email": "cristian.cortes@brm.com.co"
+  },
+  "app": "src/",
+  "build": "publication/",
+  "css": "css/",
+  "stylus": "stylus/",
+  "views": "views/",
+  "templates": "templates/",
+  "babel": "babel/",
+  "js": "js/",
+  "assets": "assets/",
+  "images": "images/",
+  "fonts": "fonts/",
+  "libs":{
+    "bootstrap": "bootstrap.min.js"
   }
 }

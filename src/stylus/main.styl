@@ -6,6 +6,10 @@ vendor-prefixes = o ms webkit moz official
 //Bootstrap v 3.3.7
 @import 'bootstrap.config'
 
+//Font Awesome v 4.7.1
+@import 'font-awesome-stylus'
+
+$fa-font-path = "../fonts"
 
 //Variables y funciones, se deben declarar primero que el resto de archivos para poderlos utilizar
 @import "modules/variables"
@@ -14,8 +18,11 @@ vendor-prefixes = o ms webkit moz official
 //Layout
 @import "modules/base"
 @import "modules/layout"
+@import "modules/header"
+@import "modules/footer"
 @import "modules/containers"
 @import "modules/columns"
+@import "modules/components"
 
 // @import "modules/utilities"
 // @import "modules/animations"

@@ -8,29 +8,30 @@ las variables se deben declarar con $ al inicio del nombre de la variable
 
 //Paleta de colores del proyecto
 
-$amarillo       = #ffc200
-$amarillooscuro = darken($amarillo, 30%) 
-$azul           = #3973bf
-$azulclaro      = lighten($azul, 30%)
-$gris           = #434343
-$naranja        = #f79529
-$rojo           = #e10d37
-$verde          = #1fa042
+$gris       = #434343
+$dorado     = #09141a
+$azul       = #1c3c4b
 
 
 /*pueden encontrar más funciones para mezclas y manejo de color acá:
 https://learnboost.github.io/stylus/docs/bifs.html*/
 
 //Fonts
-$roboto = 'roboto', sans-serif
-$varela = 'varela round', sans-serif
+$font-stack = 'roboto', sans-serif
 
-//font weights
-$light  = 300
-$normal = 400
-$bold   = 700
+$bold              = 900
+$normal            = 400
+$light             = 300
 
 
 //site grid spacing and width
 $gutter            = 0.5rem
-$site-width         = 110rem
+$site-width        = 110rem
+
+//screen sizes - rewrite bootstrap
+
+// $screen-xs      = 320px // 480px
+$screen-sm         = 770px // 768px
+$screen-md         = 900px //992px
+$screen-lg         = 1100px // 1200px
+$grid-gutter-width = $gutter

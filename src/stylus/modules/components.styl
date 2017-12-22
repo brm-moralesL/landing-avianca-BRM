@@ -1,0 +1,66 @@
+			
+.contenido-v
+	position relative
+	z-index 1
+	&::after	
+		background-repeat no-repeat
+		background-size cover
+		content ''
+		cuadrado(100%)
+		left -1.7rem
+		left 0
+		path('marco-video.png')
+		pointer-events none
+		position absolute
+		top -1.7rem
+		top 0
+		z-index 10
+	
+	.video-brm-avianca
+		height auto
+		position relative
+		transitionBase()
+		width 100%
+			
+	
+.play
+	background-repeat no-repeat
+	background-size cover
+	cuadrado(20rem)
+	cursor pointer
+	display none
+	left 50%
+	path('play.png')
+	position absolute
+	top 50%
+	transform translate3d(-50%,-50%,0)
+	transitionBase()
+	z-index: 20
+	
+	&:hover
+		border none
+		text-decoration none
+		transform translate3d(-50%,-50%,0) scale(1.1) 
+	
+
+#sparks
+	bottom 0
+	height 100%
+	left 0
+	overflow hidden
+	pointer-events none
+	position absolute
+	right 0
+	top 0
+	width 100%
+	z-index -1
+
+	.spark
+		animation sparks 4.5s linear 0s infinite normal
+		background-color #538ead
+		border-radius 100%
+		box-shadow 0px 0px 5px rgba(19, 83, 112, 0.2)
+		filter blur(10px)
+		height 3rem
+		position absolute
+		width @height
